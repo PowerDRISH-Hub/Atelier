@@ -1,0 +1,631 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    background: #181511;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.list__link {
+    text-transform: uppercase;
+    color: #ACA592;
+    font-family: "Old Standard TT";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    transition: 0.5s;
+    height: 24px;
+
+}
+
+.list__link:hover {
+    color: #FFAE2B;
+
+}
+
+.btn {
+    border: 1px solid #FFAE2B;
+    text-transform: uppercase;
+    color: #FFAE2B;
+    font-family: "Old Standard TT";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #181511;
+    background: #FFAE2B;
+}
+
+.header__btn {
+    padding: 15px 25px;
+}
+
+
+.banner__wrap {
+    background: url(../img/bgbanner.png) no-repeat center bottom/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+.banner__h {
+    font-family: "Old Standard TT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFAE2B;
+}
+
+
+.banner__p {
+    font-family: "Old Standard TT";
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    max-width: 869px;
+}
+
+.btnb {
+    background: #FFAE2B;
+    font-family: "Old Standard TT";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181511;
+    transition: 0.3s;
+    padding: 14px 24px;
+}
+
+
+
+.btnb:hover {
+    background: transparent;
+    color: #FFAE2B;
+    border: 1px solid #FFAE2B;
+    transform: scale(120%);
+}
+
+.info {
+    background: #181511;
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+.ph__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+
+.info__h1 {
+    font-family: "Old Standard TT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ACA592;
+    text-transform: uppercase;
+}
+
+.info__h2 {
+    font-family: "Old Standard TT";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFAE2B;
+}
+
+.info__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #4B4136;
+    gap: 20px;
+    padding: 40px;
+}
+
+.info__img {
+    max-width: 305px;
+    max-height: 190px;
+    filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.6));
+    transition: 0.5s;
+}
+
+.info__img:hover {
+    transform: scale(120%);
+}
+
+.card__h {
+    font-family: "Old Standard TT";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card__link {
+    color: white;
+}
+
+
+.ads {
+    background: #181511;
+    padding: 111px 0 120px;
+}
+
+.ads__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.features {
+    background: #181511;
+}
+
+
+.features__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+
+.features__card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #4B4136;
+    padding: 60px;
+    gap: 12px;
+    position: relative;
+}
+
+.features__h {
+    font-family: "Old Standard TT";
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFAE2B;
+}
+
+.features__p {
+    font-family: "Old Standard TT";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ACA592;
+}
+
+.features__span {
+    font-family: "Old Standard TT";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ACA592;
+    width: 222px;
+}
+
+
+
+
+.features__card:nth-child(3) {
+    width: 344px;
+    height: 336px;
+}
+
+
+.features__card:nth-child(3) .features__h {
+    font-family: "Old Standard TT";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFAE2B;
+}
+
+
+
+.features__card:nth-child(2) {
+    top: 3px;
+}
+
+.features__card:nth-child(3) {
+    top: 16px;
+}
+
+
+.prefooter {
+    background: #181511;
+}
+
+hr {
+    border: none;
+    color: #4B4136;
+    background-color: #4B4136;
+    height: 2px;
+    margin-bottom: 21px;
+
+}
+
+.hrline {
+    position: relative;
+}
+
+.prefooter__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.prefooter__p {
+    font-family: "Old Standard TT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFAE2B;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.prefooterlnks__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.lnkmini {
+    position: relative;
+}
+
+.lnkmini:nth-child(1) {
+    bottom: 353px;
+    left: 90px;
+}
+
+.lnkmini:nth-child(2) {
+    bottom: 353px;
+    left: 50px;
+}
+
+.lnkbig {
+    position: relative;
+    bottom: 210px;
+    z-index: 1;
+}
+
+.lnkmini:nth-child(4) {
+    bottom: 353px;
+    right: 50px;
+
+}
+
+.lnkmini:nth-child(5) {
+    bottom: 353px;
+    right: 80px;
+
+}
+
+.btnlinkpre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 303px;
+}
+
+.btn__link {
+    padding: 14px 24px;
+    background: #FFAE2B;
+    color: black;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Old Standard TT";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.hrline2 {
+    position: relative;
+    bottom: 235px;
+}
+
+.prefooterhp__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+    gap: 20px;
+}
+
+.prefooter__wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.pp {
+    font-family: "Old Standard TT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ACA592;
+    position: relative;
+    bottom: 22px;
+    left: 25px;
+}
+
+.spanp {
+    color: #FFAE2B;
+}
+
+.pp2 {
+    font-family: "Old Standard TT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ACA592;
+    position: relative;
+    right: 28px;
+    top: 2px;
+}
+
+.spanp2{
+color: #FFAE2B;
+position: relative;
+bottom: 24px;
+}
+
+
+.prefooterh__h {
+    font-family: "Old Standard TT";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFAE2B;
+    max-width: 517px;
+
+}
+
+.preefooterp__p {
+    font-family: "Old Standard TT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ACA592;
+}
+
+
+.rectangles__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 32px;
+}
+
+
+.rectangle {
+    height: 50px;
+    width: 420px;
+    background: #FFAE2B;
+
+}
+
+.rectangle:nth-child(1) {
+    background: transparent;
+    border: 1px solid #4B4136;
+
+
+}
+
+.prefooter__img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 21px;
+}
+
+.btns__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 42px;
+}
+
+.prefooter__btn {
+    padding: 14px;
+    border: 1px solid #4B4136;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.prefooter__btn:nth-child(1) {
+    padding: 14px 19px;
+}
+
+.prefooter__btn:nth-child(2) {
+    padding: 15px 14px;
+}
+
+.prefooter__btn:hover {
+    background: #FFAE2B;
+
+}
+
+.footer__line {
+    margin-bottom: 21px;
+    border: none;
+    color: #4B4136;
+    background-color: #4B4136;
+    height: 2px;
+}
+
+.footer {
+    background: #181511;
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 21px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 11px;
+}
+
+.footer__p {
+    font-family: "Old Standard TT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ACA592;
+
+}
+
+.footerspan__link {
+    font-family: "Old Standard TT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #FFAE2B;
+    text-align: left;
+
+}
+
+
+.footer__link {
+    font-family: "Old Standard TT";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFAE2B;
+
+
+}
+
+.list__link:nth-child(2) {
+    border-right: 2px solid #4B4136;
+    border-left: 2px solid #4B4136;
+    padding-left: 12px;
+    padding-right: 12px;
+}
